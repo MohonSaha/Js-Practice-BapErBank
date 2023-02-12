@@ -16,33 +16,33 @@
         <section class="box-section">
             <div class="box" id="box-1">
                 <h3>Deposit</h3>
-                <h2>$00</h2>
+                <h2 class="" >$<span id="deposit-total">00</span></h2>
             </div>
             <div class="box" id="box-2">            
                 <h3>Withdraw</h3>
-                <h2>$00</h2>
+                <h2 class="" >$<span id="withdraw-total">00</span></h2>
             </div>
             <div class="box" id="box-3">               
                 <h3>Balance</h3>
-                <h2>$00</h2>
+                <h2 class="" >$<span id="balance-total">00</span></h2>
             </div>
         </section>
 
         <section class="input-section">
             <div class="input-div" id="deposit-div">
                 <h3>Please Deposit</h3>
-                <input type="text">  <br>
-                <button class="deposit-btn">Deposit</button>
+                <input type="text" placeholder="$ Amount you want to deposit" id="deposit-field">  <br>
+                <button id="btn-deposit" class="deposit-btn">Deposit</button>
             </div>
             <div class="input-div" id="withdraw-div">
                 <h3>Please Withdraw</h3>
-                <input type="text"> <br>
-                <button class="withdraw-btn">Withdraw</button>
+                <input type="text" placeholder="$ Amount you want to withdraw" id="withdraw-field"> <br>
+                <button id="btn-withdraw" class="withdraw-btn">Withdraw</button>
             </div>
         </section>
     </main>
     
 
-    <script src="./main.js"></script>
+    <script src="./bank.js"></script>
 </body>
 </html>

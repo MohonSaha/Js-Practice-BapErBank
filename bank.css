@@ -74,10 +74,11 @@ h2 {
 
 input{
     width: 75%;
-    margin: 8px 0px;
+    margin: 10px 0px;
     padding: 6px;
     border: 2px solid gray;
-    border-radius: 6px;
+    border-radius: 12px;
+    font-size: 20px;
 }
 
 
