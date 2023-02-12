@@ -5,10 +5,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordField.value;
 
     if(email === "mohon@gmail.com" && password == "mohon"){
-        console.log("valid");
+        window.location.href = 'bank.html';
     }
 
     else{
-        console.log("Invaild");
+        alert("Invaild. Try Again!!!");
     }
 })
